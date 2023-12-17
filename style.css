@@ -10,11 +10,15 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+}
 h1.title {
   font-weight: 800;
   font-size: 2rem;
   line-height: 38.4px;
-  margin-left: 264px;
+  /* margin-left: 264px; */
   margin-top: 96px;
   margin-bottom: 48px;
 }
@@ -25,11 +29,11 @@ div.intro-chunk {
 }
 
 div.intro-chunk > p {
-  margin-left: 264px;
+  /* margin-left: 264px; */
   margin-bottom: 16px;
   margin-top: 16px;
   font-weight: 400;
-  width: 415px;
+  /* width: 415px; */
   font-size: 1.25rem;
   line-height: 30px;
 }
@@ -41,8 +45,8 @@ main {
 }
 
 div.card {
-  width: 800px;
-  margin-left: 248px;
+  /* width: 800px; */
+  /* margin-left: 248px; */
   background-color: #ffffff;
   padding-top: 4px;
 }
@@ -58,5 +62,5 @@ h2.indented-heading {
   border-bottom: 8px solid #cc9900;
   padding: 30px;
   font-size: 1.5rem;
-  width: 398px;
+  /* width: 398px; */
 }
